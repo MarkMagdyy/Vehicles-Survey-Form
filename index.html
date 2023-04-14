@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Css Link -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <title>Vehicles Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Vehicles Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div class="all-info">
+            <label class="name-la main-info" for="name">Name:</label>
+            <input class="name" type="text" id="name" placeholder="Enter your name" required>
+            <br>
+            <label class="email-la main-info" for="email">Email:</label>
+            <input class="email" type="email" id="email" placeholder="Enter your email" required>
+            <br/>
+            <label class="age-la main-info" for="number">Age:</label>
+            <input class="age" type="number" id="number" placeholder="Enter your age" required>
+            </div>
+             <div id="radio-div">
+                
+                <label class="male" for="male">Male
+                    <input type="radio" name="gender" id="male" value="male" required>
+                </label>
+                
+                <label class="female" for="female">Female
+                    <input type="radio" name="gender" id="female" value="female" required>
+                </label> 
+                  
+
+                
+            </div>
+            <br>
+            <div class="custom-select" style="width:200px;">
+                <select id="dropown">
+                    <option value="0">Select car</option>
+                    <option value="1">BMW</option>
+                    <option value="2">Mercedes</option>
+                    <option value="3">Opel</option>
+                </select>
+            </div>
+            <br>
+           
+        
+            <div id="checkbox-div">
+                
+                <label class="car" for="Car">Car
+                    <input id="car" type="checkbox" value="Car">
+                </label>
+
+                
+                <label class="bus" for="bus">Bus
+                    <input id="bus" type="checkbox" value="Bus">
+                </label>
+
+                <label class="microbus" for="microbus">Microbus
+                    <input type="checkbox" value="Microbus" id="microbus">
+                </label>
+
+            <br>
+            <br>
+                
+            <textarea style="width: 317px; height: 86px; resize: none;" ></textarea>
+
+            <div class="container">
+                <div class="vertical-center">
+                    <button class="button" type="submit" id="submit">submit</button>
+            </div>
+                </div>
+        </form>
+    </main>
+</body>
+</html>

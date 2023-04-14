@@ -1,0 +1,231 @@
+form {
+  width: 800px;
+  height: 550px;
+  margin: auto;
+  box-shadow: 0 0 30px rgb(245, 166, 97);
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Noto Serif", serif;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+input,
+textarea,
+select,
+button {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#male,
+#female,
+#car,
+#bus,
+#microbus {
+  display: inline;
+}
+
+#radio-div,
+#checkbox-div {
+  text-align: center;
+}
+
+.car {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#car {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.bus {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#bus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.microbus {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#microbus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.male {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#male {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.female {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#female {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin: 0 auto;
+  outline: 0;
+  background: white;
+  color: black;
+  border: 0px solid black;
+  padding: 4px;
+  border-radius: 9px;
+  align-items: center;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  bottom: 70%;
+}
+
+.custom-select {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
+
+.container {
+  height: 20px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 59%;
+}
+
+.name {
+  border: 1px solid #ccc !important;
+  width: 350px;
+  height: 1px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.email {
+  border: 1px solid #ccc !important;
+  width: 350px;
+  height: 1px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.age {
+  border: 1px solid #ccc !important;
+  width: 350px;
+  height: 1px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.main-info {
+  text-align: right;
+  clear: both;
+  float: left;
+  margin-right: 15px;
+}
+
+.age {
+  margin-right: 4.5cm;
+}
+
+.bg {
+  background-image: url("https://www.shorouknews.com/uploadedimages/Other/original/%D9%85%D8%B9%D8%A7%D8%B1%D8%B6-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AC%D8%AF%D8%A9-780x363.jpg");
+}
